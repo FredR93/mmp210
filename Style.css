@@ -8,7 +8,10 @@ font-size: 20px;
 }
 
 h1, p, a{
-	font-size: 1.5em; 
+	font-size: 2em; 
+}
+h2, p, a{
+	font-size: 1em;
 }
 
 a{

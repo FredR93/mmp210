@@ -1,5 +1,5 @@
 /*
-   meme version2 
+   meme version1
    */
 
 //gloabal scope

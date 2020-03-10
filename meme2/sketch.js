@@ -22,7 +22,6 @@ function draw(){
     x += speed;
     if (x > width || x < 0)
     	{ speed *=-1;}
-
     
 
 

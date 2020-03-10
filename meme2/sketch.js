@@ -3,7 +3,6 @@
    */
 
 //gloabal scope
-var newMeme;
 
 function preload(){
 	img= loadImage("newmeme.jpg")

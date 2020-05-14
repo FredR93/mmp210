@@ -1,5 +1,5 @@
 /*
-   loop3
+   art 2
    */
    // draw 5 circles in a line
 

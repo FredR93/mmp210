@@ -23,7 +23,7 @@ function setup(){
 			var s = random(-10, 10);
 
 			if (random(1) > 0.5){
-				triangle(x, y, w + s, w + s);
+				triangle(x, y, w + s, w + s, );
 			} else{
 			    rect(x, y, w + s, w + s);
 		    }

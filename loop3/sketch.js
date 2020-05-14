@@ -8,7 +8,16 @@ function setup(){
     background("white");
     rectMode(CENTER)
 	noStroke();
-	
+ 
+
+    rotateSlider = createSlider(0, TWO_PI, 0);
+    rotateSlider. input(pattern);
+
+
+	pattern(); // generate a pattern to start
+
+
+
 	var columns = 32;
 	var rows = 16;
 	var w = width/columns;
@@ -30,7 +39,10 @@ function setup(){
 		}
 	}
     
-
+    push();
+    translate(x, height/2);
+    rotate(rotateSlider .value());
+    pop();
 
 
 }
